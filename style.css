@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.1e428082a82e1e9dd64fa8de79808474?rik=u3qOPpSMvDYe%2bA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:320px ;
+    width: 380px;
+    background-color: #000000b3;
+    color: white;
+    transform:translate(-50%,-50%) ;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+img{
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top:-50px;
+    left:calc(50%-50px)
+}
+h1{
+    margin:0px;
+    padding: 0 0 20px ;
+    text-align: center;
+    font-size:25px;
+
+}
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background-image: transparent;
+    color:#fff;
+    font-size: 15px;
+    height:40px;
+}
+.box input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    background-color: tomato;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 15px;
+}
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: #fff;
+}
+.box a{
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    color:darkgray;
+}
+.box a:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
